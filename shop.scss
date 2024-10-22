@@ -1,0 +1,50 @@
+@import "_navbar.scss";
+@import "_footer.scss";
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242,239,221);
+}
+.text{
+
+    h1{
+        margin-left: 105px;
+        font-size: xxx-large;
+        font-family: "Mariposa Sans", sans-serif;
+        font-weight:400 ;
+        color: rgb(61, 8, 27) ;
+    }
+}
+.img1{
+       
+        margin-top: 15px;
+        margin-left: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 25px;
+        align-items: center;
+        color: rgb(61, 8, 27);
+    h4{
+        text-decoration: line-through;
+    }
+
+    img:hover{
+        scale: 0.95;
+    }
+}
+.img2{
+    margin-top: 15px;
+    margin-left: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 25px;
+    align-items: center;
+    color: rgb(61, 8, 27);
+    img:hover{
+        scale: 0.95;
+    }
+   
+
+}

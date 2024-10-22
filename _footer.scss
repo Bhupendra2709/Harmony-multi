@@ -1,0 +1,12 @@
+.foot{
+    font-size: large;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    color:  rgba(61,8,27,0.75);
+    ul li{
+        list-style: none;
+    }
+}

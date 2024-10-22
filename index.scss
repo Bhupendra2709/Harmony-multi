@@ -1,0 +1,127 @@
+@import "_navbar.scss";
+@import "_footer.scss";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242,239,221);
+    overflow-x: hidden;
+}
+
+.top{
+    background-color:rgb(145,15,63) ;
+    h3{
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+.flex_jd{
+      box-shadow: 4px solid brown ;
+        text-align: center;
+        color: brown;
+}
+
+.single_bar{
+    padding-left: 150px;
+    background-color:rgb(145,15,63) ;
+    h1{
+        color: white;
+        font-family:  Arial"Mariposa Sans", sans-serif;
+    }
+    .sb1{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-items: center;
+        flex-wrap: wrap !important;
+        color: white;
+    }
+    .sb2{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-items: center;
+        color: white;
+        flex-wrap: wrap !important;
+    }
+}
+.space{
+    width: 100%;
+    height: 30px;
+}
+.combo{
+    padding-left: 150px;
+    background-color:rgb(145,15,63) ;
+    h1{
+        color: white;
+        font-family:  Arial"Mariposa Sans", sans-serif;
+    }
+    .cmb{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-items: center;
+        color: white;
+        flex-wrap: wrap !important;
+
+        .c1 h4{
+            text-decoration: line-through;
+        }
+
+    }
+
+}
+.hamper{
+        padding-left: 150px;
+        background-color:rgb(145,15,63) ;
+        h1{
+            color: white;
+            font-family:  Arial"Mariposa Sans", sans-serif;
+        }
+        .hmp{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            align-items: center;
+            flex-wrap: wrap !important;
+            color: white;
+    
+            .c1 h4{
+                text-decoration: line-through;
+            }
+    
+        }
+}
+
+
+
+.space2{
+    width: 100%;
+    height: 70px;
+}
+.hamper_down{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap !important;
+    align-items: center;
+    color:  rgba(61,8,27,0.75);
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    p{
+        text-align: center;
+    }
+}
+.videos{
+    height: 300px;
+    width: 100%;
+}
+
+
+

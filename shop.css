@@ -1,0 +1,120 @@
+.top {
+  background-color: rgb(145, 15, 63);
+}
+.top h3 {
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  position: sticky;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+}
+.navbar ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  color: rgba(61, 8, 27, 0.75);
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgba(61, 8, 27, 0.75);
+}
+.navbar .cart {
+  display: flex;
+  gap: 45px;
+  padding-left: 150px;
+}
+.navbar label {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar label {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    z-index: 1111;
+    background-color: rgb(242, 239, 221);
+    width: 95%;
+  }
+  .navbar ul li {
+    padding: 20px;
+    color: rgb(145, 15, 63);
+  }
+}
+.foot {
+  font-size: large;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
+  color: rgba(61, 8, 27, 0.75);
+}
+.foot ul li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 239, 221);
+}
+
+.text h1 {
+  margin-left: 105px;
+  font-size: xxx-large;
+  font-family: "Mariposa Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(61, 8, 27);
+}
+
+.img1 {
+  margin-top: 15px;
+  margin-left: 125px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 25px;
+  align-items: center;
+  color: rgb(61, 8, 27);
+}
+.img1 h4 {
+  text-decoration: line-through;
+}
+.img1 img:hover {
+  scale: 0.95;
+}
+
+.img2 {
+  margin-top: 15px;
+  margin-left: 125px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 25px;
+  align-items: center;
+  color: rgb(61, 8, 27);
+}
+.img2 img:hover {
+  scale: 0.95;
+}/*# sourceMappingURL=shop.css.map */
